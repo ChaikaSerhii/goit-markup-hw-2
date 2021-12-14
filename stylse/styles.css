@@ -1,0 +1,17 @@
+body {
+
+}
+.text-blu {
+    color: #2196F3;
+}
+.cap {
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
