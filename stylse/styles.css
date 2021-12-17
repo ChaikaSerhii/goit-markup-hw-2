@@ -1,0 +1,255 @@
+:root {
+    --headlines-color: #212121;
+    --text-color: #757575;
+    --background-color: #2F303A;
+    --accent-color: #2196F3;
+    --text-white-color: #FFFFFF;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* ----heder -------*/
+.header {
+    width: 1600px;
+    height: 80px;
+}
+.headr-nav {
+    Font-size: 14px;
+    Line-height: 1.33;
+    Vertical-align: Top;
+}
+/* .header-logo {
+
+}
+.header-logo-link {
+}
+.nav-list {
+} */
+.nav-link {
+    color: var(--headlines-color);
+}
+.nav-link:hover, .nav-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-item {
+    display: inline;
+}
+/* .contact-list {
+} */
+.contact-link {
+    color: var(--text-color);
+}
+.contact-link:hover, .contact-link:focus {
+    color: var(--accent-color);
+}
+.contact {
+Font-size: 14px;
+Line-height: 1.33;
+Line-height: 100%;
+Vertical-align: Top;
+
+}
+.contact-item {
+    display: inline;
+}
+.logo-color {
+    color: var(--accent-color);
+}
+.header-logo-link {
+    color: var(--headlines-color);
+Font-size: 26px;
+Line-height: 31px;
+Line-height: 100%;
+}
+
+
+
+
+
+
+/* ----main------- */
+.hero {
+    width: 1600px;
+    height: 600px;
+    background-color: var(--background-color);
+}
+.hero-title {
+Font-size: 44px;
+Line-height: 60px;
+Line-height: 116%;
+Vertical-align: Top;
+color: var(--text-white-color);
+text-align: center;
+padding-top: 200px;
+}
+.order-btn {
+background-color: var(--accent-color);
+Font-size: 16px;
+Line-height: 30px;
+Line-height: 160%;
+color: var(--text-white-color);
+margin-left: 700px;
+}
+
+.features-name {
+Font-size: 14px;
+Line-height: 16px;
+Line-height: 100%;
+color: var(--headlines-color);
+}
+.features-description {
+Font-size: 14px;
+Line-height: 24px;
+Line-height: 146%;
+color: var(--text-color);
+}
+.features-list {
+    padding-left: 215px;
+    padding-top: 94px;
+}
+.features-item {
+    display: inline-block;
+    width: 270px;
+}
+.pic-list {
+margin: 0;
+padding-left: 215px;
+}
+
+.pic-title {
+Font-size: 36px;
+Line-height: 42px;
+Line-height: 100%;
+color: var(--headlines-color);
+text-align: center;
+padding-top: 94px;
+}
+.pic-item {
+    display: inline-block;
+}
+
+.team {
+    width: 1600px;
+    height: 648px;
+    background-color: #F5F4FA;
+}
+.team-list {
+display: inline;
+padding-left: 215px;
+}
+.team-item {
+    width: 270px;
+    height: 368px;
+    background-color: var(--text-white-color);
+    display: inline-block;
+}
+.team-title {
+Font-size: 36px;
+Line-height: 42px;
+Line-height: 100%;
+color: var(--headlines-color);
+text-align: center;
+padding-top: 94px;
+}
+.team-name {
+Font-size: 16px;
+Line-height: 19px;
+Line-height: 100%;
+color: var(--headlines-color);
+}
+.team-position {
+Font-size: 16px;
+Line-height: 19px;
+Line-height: 100%;
+color: var(--text-color);
+}
+.filter-item {
+    display: inline-block;
+    
+}
+.filter-btn {
+color: var(--headlines-color);
+background-color: #F5F4FA;
+}
+.filter-btn:hover, .filter-btn:focus {
+    color: var(--text-white-color);
+    background-color: var(--accent-color);
+}
+.projeсt-name {
+Font-size: 18px;
+Line-height: 36px;
+Line-height: 171%;
+color: var(--headlines-color);
+}
+.projeсt-part {
+Font-size: 16px;
+Line-height: 30px;
+Line-height: 160%;
+color:var(--text-color);
+}
+.project-item {
+    width: 370px;
+    height: 404px;
+    background-color: var(--text-white-color);
+    display: inline-block;
+}
+
+
+
+
+/* -----footer-------- */
+.footer {
+background-color: var(--background-color);
+width: 1600px;
+height: 252px;
+}    
+.footer-box {
+    padding: 60px 1154px 60px 215px;
+}
+.footer-adr {
+    padding-top: 20px;
+    padding-bottom: 9px;
+}
+.footer-logo-link {
+    color: var(--text-white-color);
+    Font-size: 26px;
+    Line-height: 31px;
+    Line-height: 100%;
+}
+.footer-map {
+Font-size: 14px;
+Line-height: 24px;
+Line-height: 146%;
+color: var(--text-white-color);
+}
+.footer-list {
+    padding: 0;
+}
+.footer-list-link {
+Font-size: 14px;
+Line-height: 24px;
+Line-height: 146%;
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+/* .hero {
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
+    color: #FFFFFF;
+} */
+
+
