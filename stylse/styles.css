@@ -16,7 +16,7 @@ body {
 .link {
     text-decoration: none;
 }
-/* ----heder -------*/
+/* -----------------HEDER --------------*/
 .header {
     width: 1600px;
     height: 80px;
@@ -24,42 +24,6 @@ body {
 .headr-nav {
     Font-size: 14px;
     Line-height: 1.33;
-    Vertical-align: Top;
-}
-/* .header-logo {
-
-}
-.header-logo-link {
-}
-.nav-list {
-} */
-.nav-link {
-    color: var(--headlines-color);
-}
-.nav-link:hover, .nav-link:focus {
-    color: var(--accent-color);
-}
-
-.nav-item {
-    display: inline;
-}
-/* .contact-list {
-} */
-.contact-link {
-    color: var(--text-color);
-}
-.contact-link:hover, .contact-link:focus {
-    color: var(--accent-color);
-}
-.contact {
-Font-size: 14px;
-Line-height: 1.33;
-Line-height: 100%;
-Vertical-align: Top;
-
-}
-.contact-item {
-    display: inline;
 }
 .logo-color {
     color: var(--accent-color);
@@ -67,11 +31,38 @@ Vertical-align: Top;
 .header-logo-link {
     color: var(--headlines-color);
 Font-size: 26px;
-Line-height: 31px;
-Line-height: 100%;
+Line-height: 1.19;
+}
+/* -------------------NAV------------------- */
+.nav-link {
+    color: var(--headlines-color);
+}
+.nav-link:hover, 
+.nav-link:focus {
+    color: var(--accent-color);
 }
 
-/* ----main------- */
+.nav-item {
+    display: inline;
+}
+/* ------------------CONTACT------------- */
+.contact {
+Font-size: 14px;
+Line-height: 1.33;
+}
+
+.contact-link {
+    color: var(--text-color);
+}
+.contact-link:hover, 
+.contact-link:focus {
+    color: var(--accent-color);
+}
+.contact-item {
+    display: inline;
+}
+/* -------------------MAIN index------- */
+/* ------------------HERO index--------- */
 .hero {
     width: 1600px;
     height: 600px;
@@ -79,22 +70,24 @@ Line-height: 100%;
 }
 .hero-title {
 Font-size: 44px;
-Line-height: 60px;
-Line-height: 116%;
-Vertical-align: Top;
+Line-height: 1.36;
 color: var(--text-white-color);
 text-align: center;
 padding-top: 200px;
 }
+/* --------------------BTN index----------- */
 .order-btn {
 background-color: var(--accent-color);
 Font-size: 16px;
-Line-height: 30px;
-Line-height: 160%;
+Line-height: 1.87;
 color: var(--text-white-color);
 margin-left: 700px;
+cursor: pointer;
 }
-
+.order-btn:hover, .order-btn:focus {
+    background-color: #2181f0;
+}
+/* -------------------FEATURES index----- */
 .features-name {
 Font-size: 14px;
 Line-height: 16px;
@@ -115,6 +108,7 @@ color: var(--text-color);
     display: inline-block;
     width: 270px;
 }
+/* ------------------PIC index-------- */
 .pic-list {
 margin: 0;
 padding-left: 215px;
@@ -131,7 +125,7 @@ padding-top: 94px;
 .pic-item {
     display: inline-block;
 }
-
+/* ---------------------TEAM index------ */
 .team {
     width: 1600px;
     height: 648px;
@@ -167,18 +161,22 @@ Line-height: 19px;
 Line-height: 100%;
 color: var(--text-color);
 }
+/* ----------------MAIN portfolio----- */
+/* --------------FILTER port----- */
 .filter-item {
     display: inline-block;
-    
 }
 .filter-btn {
 color: var(--headlines-color);
 background-color: #F5F4FA;
+cursor: pointer;
 }
-.filter-btn:hover, .filter-btn:focus {
+.filter-btn:hover, 
+.filter-btn:focus {
     color: var(--text-white-color);
     background-color: var(--accent-color);
 }
+/* --------------PROJECT port---- */
 .projeсt-name {
 Font-size: 18px;
 Line-height: 36px;
@@ -197,9 +195,6 @@ color:var(--text-color);
     background-color: var(--text-white-color);
     display: inline-block;
 }
-
-
-
 
 /* -----footer-------- */
 .footer {
@@ -235,15 +230,4 @@ Line-height: 24px;
 Line-height: 146%;
 color: rgba(255, 255, 255, 0.6);
 }
-
-
-
-
-
-/* .hero {
-    width: 1600px;
-    height: 600px;
-    background-color: #2F303A;
-    color: #FFFFFF;
-} */
 
