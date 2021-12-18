@@ -90,14 +90,12 @@ cursor: pointer;
 /* -------------------FEATURES index----- */
 .features-name {
 Font-size: 14px;
-Line-height: 16px;
-Line-height: 100%;
+Line-height: 1.14;
 color: var(--headlines-color);
 }
 .features-description {
 Font-size: 14px;
-Line-height: 24px;
-Line-height: 146%;
+Line-height: 1.71;
 color: var(--text-color);
 }
 .features-list {
@@ -116,8 +114,7 @@ padding-left: 215px;
 
 .pic-title {
 Font-size: 36px;
-Line-height: 42px;
-Line-height: 100%;
+Line-height: 1.16;
 color: var(--headlines-color);
 text-align: center;
 padding-top: 94px;
@@ -143,22 +140,19 @@ padding-left: 215px;
 }
 .team-title {
 Font-size: 36px;
-Line-height: 42px;
-Line-height: 100%;
+Line-height: 1.16;
 color: var(--headlines-color);
 text-align: center;
 padding-top: 94px;
 }
 .team-name {
 Font-size: 16px;
-Line-height: 19px;
-Line-height: 100%;
+Line-height: 1.18;
 color: var(--headlines-color);
 }
 .team-position {
 Font-size: 16px;
-Line-height: 19px;
-Line-height: 100%;
+Line-height: 1.18;
 color: var(--text-color);
 }
 /* ----------------MAIN portfolio----- */
@@ -179,14 +173,12 @@ cursor: pointer;
 /* --------------PROJECT port---- */
 .projeсt-name {
 Font-size: 18px;
-Line-height: 36px;
-Line-height: 171%;
+Line-height: 2;
 color: var(--headlines-color);
 }
 .projeсt-part {
 Font-size: 16px;
-Line-height: 30px;
-Line-height: 160%;
+Line-height: 1.87;
 color:var(--text-color);
 }
 .project-item {
@@ -212,13 +204,11 @@ height: 252px;
 .footer-logo-link {
     color: var(--text-white-color);
     Font-size: 26px;
-    Line-height: 31px;
-    Line-height: 100%;
+    Line-height: 1.19;
 }
 .footer-map {
 Font-size: 14px;
-Line-height: 24px;
-Line-height: 146%;
+Line-height: 1.71;
 color: var(--text-white-color);
 }
 .footer-list {
@@ -226,8 +216,7 @@ color: var(--text-white-color);
 }
 .footer-list-link {
 Font-size: 14px;
-Line-height: 24px;
-Line-height: 146%;
+Line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
 }
 
