@@ -9,6 +9,7 @@ body {
     font-family: "Roboto", sans-serif;
     max-width: 1600px;
     margin: 0 auto;
+    color: #E5E5E5;
 }
 .list {
     list-style: none;
@@ -32,16 +33,20 @@ body {
     color: var(--headlines-color);
 Font-size: 26px;
 Line-height: 1.19;
+Font-family: "Raleway";
+
 }
 /* -------------------NAV------------------- */
-.nav-link {
+.nav {
     color: var(--headlines-color);
 }
-.nav-link:hover, 
-.nav-link:focus {
+.nav:hover, 
+.nav:focus {
     color: var(--accent-color);
 }
-
+.nav.link.current {
+    color: var(--accent-color);
+}
 .nav-item {
     display: inline;
 }
@@ -171,10 +176,15 @@ cursor: pointer;
     background-color: var(--accent-color);
 }
 /* --------------PROJECT port---- */
+
 .projeсt-name {
 Font-size: 18px;
 Line-height: 2;
 color: var(--headlines-color);
+}
+.btn-current {
+    background-color: var(--accent-color);
+    color: var(--text-white-color);
 }
 .projeсt-part {
 Font-size: 16px;
@@ -200,11 +210,13 @@ height: 252px;
 .footer-adr {
     padding-top: 20px;
     padding-bottom: 9px;
+    font-style: normal;
 }
 .footer-logo-link {
     color: var(--text-white-color);
     Font-size: 26px;
     Line-height: 1.19;
+    Font-family: "Raleway";
 }
 .footer-map {
 Font-size: 14px;
